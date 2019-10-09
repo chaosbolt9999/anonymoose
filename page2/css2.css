@@ -127,11 +127,10 @@ button, .boop {
 	position:absolute;
 	width:100%;
 	height: 100%;
-	font-size: 15px;
-    font-weight: bold;
+	font-size: 20px;
     font-family: 'Amiko';
-  text-align: center;
-  line-height:100%;
+  text-align: justify;
+  line-height:1.6;
  
 }
 .ddp {
