@@ -100,7 +100,7 @@ button, .boop {
   	padding-left: 5%;
   	padding-right: 5%;
 	  text-align: justify;
-	  font-family: "Amiko";
+	
 }
 .screen2{
     width: 422.5px;
@@ -115,7 +115,7 @@ button, .boop {
   	padding-left: 5%;
   	padding-right: 5%;
 	text-align: justify;
-	font-family: "Amiko";
+
 }
 .screen3{
     width: 422.5px;
@@ -130,7 +130,7 @@ button, .boop {
   	padding-left: 5%;
   	padding-right: 5%;
 	text-align: justify;
-	font-family: "Amiko";
+	
 }
 .screen4{
     width: 422.5px;
@@ -145,7 +145,7 @@ button, .boop {
   	padding-left: 5%;
   	padding-right: 5%;
 	text-align: justify;
-	font-family: "Amiko";
+
 }
 .cover{
 	height:383px;
