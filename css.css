@@ -67,7 +67,6 @@ button, .boop {
 } 
 	
 .secret a {
-    padding: 10px 15px 10px 25px;
     text-decoration: none;
     display: block;
 	
@@ -80,8 +79,6 @@ button, .boop {
 .boop:hover .menu, .boop:hover {
 	background-color: #74a38c;
 }
-
-
 
 .pic {
     float: left;
