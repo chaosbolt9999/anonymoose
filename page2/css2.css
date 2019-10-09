@@ -93,7 +93,7 @@ button, .boop {
     font-weight: bold;
 }
 .pics{
-    border: 1px solid black;
+   
     margin-bottom: 15px;
     width: 25%;
     height: 350px;
@@ -102,7 +102,7 @@ button, .boop {
     float: left;
 }
 .text{
-    border: 1px solid black;
+ 
     margin-bottom: 15px;
     width: 25%;
     height: 350px;
