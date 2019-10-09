@@ -1,10 +1,11 @@
 @charset "utf-8";
 
-body { background-color: #5CDB95;
+body { 
+	background-color: #5CDB95;
 	  font-family: "Verdana", Geneva, sans-serif;
 	  margin: 0;
 	  color: #EDF5D1;
-overflow-x:hidden;
+	overflow-x:hidden;
  }
 .nav {
     width: 100%;
@@ -68,14 +69,13 @@ button, .boop {
     padding: 10px 15px 10px 15px;
     text-decoration: none;
     display: block;
-    background-color: #f1f1f1;
 }
 
 .secret a:hover {
-	background-color: #a9d1b4;
+	background-color: #f1f1f1;
 }
 
-button, .boop:hover .menu {
+.boop:hover .menu {
 	background-color: #74a38c;
 }
 
@@ -277,32 +277,47 @@ footer{
 	height: 100vh;
 
 }
+.qcircle{
+	width: 4%;
+	height: 0;
+    padding-bottom: 4%;
+    border-radius: 100px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #8EE4AF;
+	transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.qcircle:hover {
+	width: 70vw;
+	height: 70vh;
+}
+  
+.qcircle:hover .sources {
+	transition-delay: 500ms;
+	display: block;
+}
 
 .sources { 
+  padding: 100px;
+  position: relative;
 	font-size: 20px;
-	margin-left: 20%;
-	margin-right:20%;
 	text-align: justify;
 	color: #05386B;
 	overflow: hidden;
-	margin-top: 15%;
+	text-decoration: none;
+  display: none;
 }
 
-ul. a{
+ul a {
 	list-style-type: square;
 }
 
 ul li { 
 	font-size: 15px;
 }
-
-a:link, a:visited {
-	text-decoration: none;
-}
-
-
-
-
 
 
 
