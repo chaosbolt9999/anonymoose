@@ -267,7 +267,7 @@ footer{
 	text-align: justify;
 	color: #05386B;
 	overflow: hidden;
-	padding-top: 100px;
+	margin-top: 15%;
 }
 
 ul. a{
@@ -276,8 +276,15 @@ ul. a{
 
 ul li { 
 	font-size: 15px;
+}
+
+a:link, a:visited {
 	text-decoration: none;
 }
+
+
+
+
 
 
 
