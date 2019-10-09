@@ -72,6 +72,35 @@ button, .boop {
   border: 0px 0px 0px 0px;
   outline: none;
 }
+/* Header above. */
+.content{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    width: 100%;
+}
+.headers{
+    height: 100px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+}
+.pics{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    width: 25%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 7%;
+    float: left;
+}
 .text{
     border: 1px solid black;
     margin-bottom: 15px;
