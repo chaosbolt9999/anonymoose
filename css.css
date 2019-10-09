@@ -51,16 +51,33 @@ button, .boop {
     top: 53px;
     display: none;
     position: absolute;
-    background-color: #91FFEF;
+    background-color:  #f9f9f9;
     z-index: 1;
     padding: 5px 15px;
     float: left;
 }
+
+.menu {
+	font-family: "Verdana", Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #05386B;
+}
+	
 .secret a {
     padding: 10px 15px 10px 15px;
     text-decoration: none;
     display: block;
 }
+
+.secret a:hover {
+	background-color: #f1f1f1;
+}
+
+.boop:hover .menu {
+	background-color: #74a38c;
+}
+
 .pic {
     float: left;
     height: 55px;
