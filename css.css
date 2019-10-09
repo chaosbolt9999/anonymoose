@@ -76,9 +76,11 @@ button, .boop {
 	background-color: #a5c9af;
 }
 
-.boop:hover {
+.boop:hover .menu, .boop:hover {
 	background-color: #74a38c;
 }
+
+
 
 .pic {
     float: left;
