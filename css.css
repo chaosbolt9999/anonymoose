@@ -261,12 +261,13 @@ footer{
 }
 
 .sources { 
-	font-size: 25px;
+	font-size: 20px;
 	margin-left: 20%;
 	margin-right:20%;
 	text-align: justify;
 	color: #05386B;
 	overflow: hidden;
+	text-decoration: none;
 }
 
 ul. a{
@@ -274,7 +275,7 @@ ul. a{
 }
 
 ul li { 
-	font-size: 17px;
+	font-size: 15px;
 
 
 
