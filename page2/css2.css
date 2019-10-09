@@ -175,6 +175,10 @@ button, .boop {
     color: #05386B;
     font-weight: bold;
 }
+.bigimg{object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
 #icon{object-fit: contain;width: 100%;} 
  
 footer {
