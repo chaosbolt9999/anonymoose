@@ -13,10 +13,10 @@ body { background-color: #5CDB95;
     font-size: 15px;
     font-weight: bold;
     color: #05386B;
-	width: 100%;
 	background-color: #8EE4AF;
 	display: block;
 	height: 55px;
+  z-index: 2
 }
 
 a:link {
@@ -24,7 +24,7 @@ a:link {
 }
 .nav a {
 	float: left;
-	padding: 1% 5% 1% 5%;
+	padding: 1.38% 5% 1.38% 5%;
 	text-decoration: none;
 }
 .nav a:hover {
@@ -61,8 +61,21 @@ button, .boop {
 	display: block;
 }
 .pic {
-	height: 25px;
+	height: 10px;
 	padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+  outline: none;
+}
+.headers{
+	height: 100px;
+	margin: auto;
+	width: 70%;
+	text-align: center;
+	font-size: 47px;
+	font-weight: bold;
+  padding: 30px;
+  z-index: 3100;
 }
 .monitor{
 	width: 450px;
@@ -80,10 +93,12 @@ button, .boop {
     opacity: 0;
     position: relative;
     bottom: 1000%;
-    right: 3.5%;
+    right: 4%;
     font-size: 15px;
-	text-align: justify;
-	font-family: "Amiko";
+  	padding-left: 5%;
+  	padding-right: 5%;
+	  text-align: justify;
+	  font-family: "Amiko";
 }
 .screen2{
     width: 422.5px;
@@ -93,8 +108,10 @@ button, .boop {
     opacity: 0;
     position: relative;
     bottom: 1000%;
-    right: 124.5%;
+    right: 121.5%;
     font-size: 15px;
+  	padding-left: 5%;
+  	padding-right: 5%;
 	text-align: justify;
 	font-family: "Amiko";
 }
@@ -106,8 +123,10 @@ button, .boop {
     opacity: 0;
     position: relative;
     bottom: 1000%;
-    right: 245.5%;
+    right: 239.5%;
     font-size: 15px;
+  	padding-left: 5%;
+  	padding-right: 5%;
 	text-align: justify;
 	font-family: "Amiko";
 }
@@ -119,24 +138,30 @@ button, .boop {
     opacity: 0;
     position: relative;
     bottom: 1000%;
-    right: 366.5%;
+    right: 357%;
     font-size: 15px;
+  	padding-left: 5%;
+  	padding-right: 5%;
 	text-align: justify;
 	font-family: "Amiko";
 }
-.cover{height:383px ;
-	width:422.6px ;
+.cover{
+	height:383px;
+	width:422.6px;
 	padding:0;
-	z-index: 10;
+	z-index: 1;
 	opacity: 0;
 	background-color:#5CDB95;
 	position: relative;
 	top: 0.8%;
-	left:0.9%; }
+	left:0.9%; 
+}
 
 
 
-.cover:hover{opacity:1;}
+.cover:hover{
+	opacity:1;
+}
 .button1:hover .screen1{    
 	filter: alpha(opacity=1);
     opacity: 1;
@@ -212,12 +237,17 @@ button, .boop {
 	float: left;
 	background-color: #379683;
 }
-
+.monitor img {
+	width: 400px;
+  height: 100px;
+  left: 0;
+  right: 0;
+}
 .content{
-	height.: 500px;
-	margin-top:20px;
+	height: auto;
+	margin-top: 20px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	width: 100%;
 	line-height: 30px;
 	background-color:#379683;
@@ -240,7 +270,7 @@ button, .boop {
 footer{
 	position: relative;
 	bottom: 0;
-    height: 150px;
+    height: 180px;
     width: 100%;
     padding-left: 0.15%;
     padding-right: 0.15%;
