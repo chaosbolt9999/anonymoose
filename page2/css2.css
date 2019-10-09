@@ -244,7 +244,48 @@ footer {
 }
  
 .qcircle:hover {
-    width: 8%;
-    height: 8%;
- 
+    width: 100vw;
+    height: 100vh;
+}
+
+.qcircle{
+	width: 4%;
+	height: 0;
+    padding-bottom: 4%;
+    border-radius: 100px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #8EE4AF;
+	transition: width 2s, height 2s;
+  overflow: hidden;
+}
+
+.qcircle:hover {
+	width: 70vw;
+	height: 70vh;
+}
+  
+.qcircle:hover .sources {
+	transition-delay: 500ms;
+	display: block;
+}
+
+.sources { 
+  padding: 100px;
+  position: relative;
+	font-size: 20px;
+	text-align: justify;
+	color: #05386B;
+	overflow: hidden;
+	text-decoration: none;
+  display: none;
+}
+
+ul a {
+	list-style-type: square;
+}
+
+ul li { 
+	font-size: 15px;
 }
