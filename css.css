@@ -19,11 +19,7 @@ overflow-x:hidden;
     display: block;
     height: 55px;
 }
-img {
-    height: 35px;
-    width: auto;
-    padding: 0px 0px 0px 0px;
-}
+
 a:link {
     color: #05386B;
 }
@@ -133,7 +129,11 @@ button, .boop {
 }
 #image{object-fit: contain;width: 100%;height:100%;}
 #icon{object-fit: contain;width: 100%;}
-#logo{object-fit:contain;height:100%;}
+#logo{
+    height: 35px;
+    width: auto;
+    padding: 0px 0px 0px 0px;
+}
 
 .privacyact {
 	text-align: justify;
