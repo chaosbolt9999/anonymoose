@@ -1,10 +1,11 @@
 @charset "utf-8";
 
-body { background-color: #5CDB95;
+body { 
+	background-color: #5CDB95;
 	  font-family: "Verdana", Geneva, sans-serif;
 	  margin: 0;
 	  color: #EDF5D1;
-overflow-x:hidden;
+	overflow-x:hidden;
  }
 .nav {
     width: 100%;
@@ -51,16 +52,34 @@ button, .boop {
     top: 53px;
     display: none;
     position: absolute;
-    background-color: #91FFEF;
+    background-color:  #f9f9f9;
     z-index: 1;
     padding: 5px 15px;
     float: left;
 }
+
+.menu {
+	font-family: "Verdana", Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #05386B;
+}
+	
 .secret a {
     padding: 10px 15px 10px 15px;
     text-decoration: none;
     display: block;
+	background-color: #f1f1f1;
 }
+
+.secret a:hover {
+	background-color: #a5c9af;
+}
+
+.boop:hover {
+	background-color: #74a38c;
+}
+
 .pic {
     float: left;
     height: 55px;
@@ -143,20 +162,15 @@ button, .boop {
 	font-size: 20px;
 	font-family: 'Amiko';
 	color: #EDF5D1;
-	padding-top: 50px;
-	padding-bottom: 80px;
+	padding-top: 17px;
+	padding-bottom: 100px;
 	}
 
 .act {
 	width: 70%;
 	height: 460px;
 	margin-left: 15%;
-	padding-bottom: 10px;
-}
-  
-.act a {
-	color: #05386B
-    text-decoration: none;
+	padding-bottom: 80px;
 }
 
 .privacytitle {
@@ -167,6 +181,7 @@ button, .boop {
 	font-weight: bold;
 	padding-top: 20px;
 }
+
 
 footer{
 	position: relative;
@@ -256,6 +271,23 @@ footer{
 	right: 0;
 	background-color: #8EE4AF;
 	transition: width 2s, height 2s;
+}
+
+.qcircle:hover {
+	width: 100vw;
+	height: 100vh;
+
+}
+.qcircle{
+	width: 4%;
+	height: 0;
+    padding-bottom: 4%;
+    border-radius: 100px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #8EE4AF;
+	transition: width 2s, height 2s;
   overflow: hidden;
 }
 
@@ -287,4 +319,6 @@ ul a {
 ul li { 
 	font-size: 15px;
 }
+
+
 
