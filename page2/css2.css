@@ -51,7 +51,7 @@ button, .boop {
     display: block;
 }
 .secret {
-    top: 53px;
+    top: 55px;
     display: none;
     position: absolute;
     background-color:  #e6fcee;
@@ -71,9 +71,8 @@ button, .boop {
 .secret a {
     text-decoration: none;
     display: block;
-	
+	padding: 0px 44px;
 }
-
 .secret a:hover{
 	background-color: #c5e3d0;
 }
