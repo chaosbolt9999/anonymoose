@@ -1,149 +1,160 @@
-@charset "utf-8"; 
+@charset "utf-8";
 /* PAGE 2 */
-
+ 
 /* Header below. */
-body { 
-	background-color: #5CDB95;
-	font-family: "Verdana", Geneva, sans-serif;
-	margin: 0;
-	color: #EDF5D1;
+body {
+    background-color: #5CDB95;
+    font-family: "Verdana", Geneva, sans-serif;
+    margin: 0;
+    color: #EDF5D1;
  }
 .nav {
-	width: 100%;
-	position: sticky;
+    width: 100%;
+    position: sticky;
     top: 0;
     font-family: "Verdana", Geneva, sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #05386B;
-	width: 100%;
-	background-color: #8EE4AF;
-	display: block;
-	height: 55px;
+    width: 100%;
+    background-color: #8EE4AF;
+    display: block;
+    height: 55px;
 }
 img {
-	height: 35px;
-	width: auto;
-	padding: 0px 0px 0px 0px;
+    height: 35px;
+    width: auto;
+    padding: 0px 0px 0px 0px;
 }
 a:link {
-	color: #05386B;
+    color: #05386B;
 }
 .nav a {
-	float: left;
-	padding: 1% 5% 1% 5%;
-	text-decoration: none;
+    float: left;
+    padding: 1% 5% 1% 5%;
+    text-decoration: none;
 }
 .nav a:hover {
-	background-color: yellow;
+    background-color: yellow;
 }
 button, .boop {
-	color: #05386B;
-	font-size: 15px;
-	border: none;
-	outline: none;
-	padding: 10px 15px 9px 25px;
-	margin: 0;
-	background-color: #8EE4AF;
+    color: #05386B;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 10px 15px 9px 25px;
+    margin: 0;
+    background-color: #8EE4AF;
 }
 .boop {
-	float: right;
-	overflow: hidden;
+    float: right;
+    overflow: hidden;
 }
 .boop:hover .secret {
-	display: block;
+    display: block;
 }
 .secret {
-	top: 53px;
-	display: none;
-	position: absolute;
-	background-color: #91FFEF;
-	z-index: 1;
-	padding: 5px 15px;
-	float: left;
+    top: 53px;
+    display: none;
+    position: absolute;
+    background-color: #91FFEF;
+    z-index: 1;
+    padding: 5px 15px;
+    float: left;
 }
 .secret a {
-	padding: 10px 15px 10px 15px;
-	text-decoration: none;
-	display: block;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    display: block;
 }
 .pic {
-	height: 25px;
-	padding: 0px 0px 0px 0px;
+    float: left;
+    height: 55px;
+  width: auto;
+    padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
+  outline: none;
 }
 /* Header above. */
 .content{
-	padding-top: 40px;
-	padding-bottom: 20px;
-
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
 }
 .container{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	height: auto;
-
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    width: 100%;
 }
 .headers{
-	height: 100px;
-	margin: auto;
-	width: 70%;
-	text-align: center;
-	font-size: 47px;
-	font-weight: bold;
+    height: 100px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
 }
 .pics{
-	border: 1px solid black;
-	margin-bottom: 15px;
-	width: 25%;
-	height: 350px;
-	margin-top: 20px;
-	margin-left: 7%;
-	float: left;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    width: 25%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 7%;
+    float: left;
 }
 .text{
-	border: 1px solid black;
-	margin-bottom: 15px;
-	width: 25%;
-	height: 350px;
-	margin-top: 20px;
-	margin-left: 7%;
-	float: left;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    width: 25%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 7%;
+    float: left;
 }
 .dropdown{
-	border: 1px solid black;
-	margin-bottom: 15px;
-	width: 25%;
-	height: 350px;
-	margin-top: 20px;
-	margin-left: 7%;
-	float: left;
-	font-size: 15px;
-	font-weight: bold;
-	font-family: "Amiko";
+    border: 1px solid black;
+    margin-bottom: 15px;
+    width: 22.5%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 7%;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Amiko";
+  padding: 10px;
+}
+.ddp {
+    width: 100%;
+  height: 30%;
+  margin: 2px;
 }
 .mainimg{
-	border: 1px solid black;
-	width: 52.03%;
-	height: 500px;
-	margin: auto;
-	margin-top: 50px;
+    border: 1px solid black;
+    width: 52.03%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
 }
 .maintxt{
-	width: 62%;
-	height: 290px;
-	font-size: 18px;
-	font-family: 'Amiko';
-	text-align: justify;
-	margin: auto;
-	padding-top: 20px;
-	color: #05386B;
-	font-weight: bold;
+    width: 62%;
+    height: 290px;
+    font-size: 18px;
+    font-family: 'Amiko';
+    text-align: justify;
+    margin: auto;
+    padding-top: 20px;
+    color: #05386B;
+    font-weight: bold;
 }
-
-
-footer{
-	position: relative;
-	bottom: 0;
+ 
+ 
+footer {
+    position: relative;
+      bottom: 0;
     height: 150px;
     width: 100%;
     padding-left: 0.15%;
@@ -152,87 +163,92 @@ footer{
     padding-bottom: 25px;
     margin-top: 20px;
     background-color: #314269;
-
+      clear: both;
+    margin-bottom: 0;
+  left: 0;
+  right: 0;
 }
 .footertitle{
-	width: 50%;
-	height: 35px;
-	margin: auto;
-	text-align: center;
-	font-size: 35px;
-	font-weight: bold;
-	color: #EDF5D1;
-
+    width: 50%;
+    height: 35px;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #EDF5D1;
 }
 .ficontainer{
-	
-	border: 1px solid black;
-	margin: auto;
-	width: 70%;
-	height: 50px;
-	padding: 20px;
-	
-	
+   
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+    height: 50px;
+    padding: 20px;
+    border: none;
+   
+   
 }
 .ficon{
-	
-	border: 1px solid black;
-	margin: auto;
-	width: 4%;
-	height: 0;
+   
+    border: 1px solid black;
+    margin: auto;
+    width: 4%;
+    height: 0;
     padding-bottom: 4%;
-	border-radius: 100%;
-	margin-left: 17%;
-	float: left;
-	
-	
+    border-radius: 100%;
+    margin-left: 17%;
+    float: left;
+    border: none;
+   
+   
 }
 .ficon2{
-
-	border: 1px solid black;
-	width: 4%;
-	height: 0;
+ 
+    border: 1px solid black;
+    width: 4%;
+    height: 0;
     padding-bottom: 4%;
-	border-radius: 100%;
-	margin-left: 28%;
-	float: left;
-	
-	
+    border-radius: 100%;
+    margin-left: 28%;
+    float: left;
+    border: none;
+   
+   
 }
 .fname{
-	margin-top: 2px;
-	width: 20%;
-	height: 10px;
-	margin-left: 18%;
-	float: left;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-
-	
-	
+    margin-top: 2px;
+    width: 20%;
+    height: 10px;
+    margin-left: 18%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+ 
+   
+   
 }
 .fname2{
-	margin-top: 2px;
-	width: 20%;
-	height: 10px;
-	margin-left: 2%;
-	float: left;
+    margin-top: 2px;
+    width: 20%;
+    height: 10px;
+    margin-left: 2%;
+    float: left;
 }
 .qcircle{
-	width: 4%;
-	height: 0;
+    width: 4%;
+    height: 0;
     padding-bottom: 4%;
     border-radius: 100px 0 0 0;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	background-color: #8EE4AF;
-	transition: width 2s, height 2s;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #8EE4AF;
+    transition: width 2s, height 2s;
 }
-
+ 
 .qcircle:hover {
-	width: 8%;
-	height: 8%;
-
+    width: 8%;
+    height: 8%;
+ 
 }
