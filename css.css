@@ -54,8 +54,8 @@ button, .boop {
     position: absolute;
     background-color:  #e6fcee;
     z-index: 1;
-    padding: 5px 15px;
-    float: left;
+    padding: 5px 40px;
+    right: 0px;
 }
 
 .menu {
