@@ -96,12 +96,12 @@ button, .boop {
     position: relative;
     bottom: 1000%;
     right: 4%;
-    font-size: 15px;
+    font-size: 20px;
   	padding-left: 5%;
   	padding-right: 5%;
-	  text-align: justify;
-	font-family: 'Amiko';
-	
+	  font-family: 'Amiko';
+	  background: url('../images/secure password') no-repeat;
+    background-size: 100%;
 }
 .screen2{
     width: 422.5px;
@@ -112,11 +112,12 @@ button, .boop {
     position: relative;
     bottom: 1000%;
     right: 121.5%;
-    font-size: 15px;
+    font-size: 20px;
   	padding-left: 5%;
   	padding-right: 5%;
-	text-align: justify;
-	font-family: 'Amiko';
+		font-family: 'Amiko';
+	  background: url('../images/password repeat') no-repeat;
+    background-size: 100%;
 
 }
 .screen3{
@@ -128,11 +129,12 @@ button, .boop {
     position: relative;
     bottom: 1000%;
     right: 239.5%;
-    font-size: 15px;
+    font-size: 20px;
   	padding-left: 5%;
   	padding-right: 5%;
-	text-align: justify;
-	font-family: 'Amiko';
+		font-family: 'Amiko';
+	  background: url('../images/post online') no-repeat;
+    background-size: 100%;
 	
 }
 .screen4{
@@ -144,11 +146,12 @@ button, .boop {
     position: relative;
     bottom: 1000%;
     right: 357%;
-    font-size: 15px;
+    font-size: 20px;
   	padding-left: 5%;
   	padding-right: 5%;
-	text-align: justify;
-	font-family: 'Amiko';
+		font-family: 'Amiko';
+	  background: url('../images/anti virus') no-repeat;
+    background-size: 100%;
 
 }
 .cover{
@@ -163,7 +166,14 @@ button, .boop {
 	left:0.9%; 
 }
 
-
+p {
+	font-size: 30px;
+}
+   
+.screen1 a, .screen2 a  {
+	text-decoration: none;
+  color: #05386B;
+}
 
 .cover:hover{
 	opacity:1;
@@ -367,49 +377,3 @@ footer{
 	width: 100vw;
 	height: 100vh;
 }
-
-}
-.qcircle{
-	width: 4%;
-	height: 0;
-    padding-bottom: 4%;
-    border-radius: 100px 0 0 0;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	background-color: #8EE4AF;
-	transition: width 2s, height 2s;
-  overflow: hidden;
-}
-
-.qcircle:hover {
-	width: 70vw;
-	height: 70vh;
-}
-  
-.qcircle:hover .sources {
-	transition-delay: 500ms;
-	display: block;
-}
-
-.sources { 
-  padding: 100px;
-  position: relative;
-	font-size: 20px;
-	text-align: justify;
-	color: #05386B;
-	overflow: hidden;
-	text-decoration: none;
-  display: none;
-}
-
-ul a {
-	list-style-type: square;
-}
-
-ul li { 
-	font-size: 15px;
-}
-
-
-
