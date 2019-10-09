@@ -146,7 +146,7 @@ button, .boop {
     color: #05386B;
     font-weight: bold;
 }
- 
+#icon{object-fit: contain;width: 100%;} 
  
 footer {
     position: relative;
