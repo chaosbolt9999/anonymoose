@@ -119,6 +119,7 @@ button, .boop {
   	padding-right: 5%;
 	  font-family: 'Amiko';
     background-size: 100%;
+	background: url('../images/secure password.png') no-repeat;
 }
 .screen2{
     width: 422.5px;
@@ -211,7 +212,7 @@ p {
 	width: 20%;
 	height: 40px;
 	float: left;
-	background: url('../images/secure password.png') no-repeat;
+	
 }
 
 .button2:hover .screen2{    
@@ -230,7 +231,7 @@ p {
 	width: 20%;
 	height: 40px;
 	float: left;
-	background: url('../images/password repeat.png') no-repeat;
+	background-color: #379683;
 }
 
 .button3:hover .screen3{    
