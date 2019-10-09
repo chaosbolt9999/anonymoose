@@ -91,6 +91,7 @@ button, .boop {
     text-align: center;
     font-size: 47px;
     font-weight: bold;
+
 }
 .pics{
    
@@ -170,7 +171,7 @@ button, .boop {
     font-family: 'Amiko';
     text-align: justify;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 28px;
     color: #05386B;
     font-weight: bold;
 }
