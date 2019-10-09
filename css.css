@@ -261,9 +261,9 @@ footer{
 }
 
 .sources { 
-	font-size: 20px;
-	width: 30%;
-	height: 100vh;
+	font-size: 25px;
+	margin-left: 20%;
+	margin-right:20%;
 	float: left;
 	text-align: justify;
 	color: #05386B;
@@ -272,6 +272,9 @@ footer{
 ul. a{
 	list-style-type: square;
 }
+
+ul li { 
+	font-size: 17px;
 
 
 
