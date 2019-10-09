@@ -267,7 +267,7 @@ footer{
 	text-align: justify;
 	color: #05386B;
 	overflow: hidden;
-	text-decoration: none;
+	padding-top: 100px;
 }
 
 ul. a{
@@ -276,6 +276,7 @@ ul. a{
 
 ul li { 
 	font-size: 15px;
+	text-decoration: none;
 }
 
 
