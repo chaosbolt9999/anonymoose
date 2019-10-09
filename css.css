@@ -69,9 +69,10 @@ button, .boop {
     padding: 10px 15px 10px 15px;
     text-decoration: none;
     display: block;
+	
 }
 
-.secret a:hover {
+.secret a:hover, .secret {
 	background-color: #c5e3d0;
 }
 
