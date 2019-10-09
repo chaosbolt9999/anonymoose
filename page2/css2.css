@@ -161,11 +161,11 @@ button, .boop {
     width: 52.03%;
     height: 500px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .maintxt{
     width: 62%;
-    height: 290px;
+    height: 280px;
     font-size: 18px;
     font-family: 'Amiko';
     text-align: justify;
