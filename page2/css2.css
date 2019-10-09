@@ -54,16 +54,34 @@ button, .boop {
     top: 53px;
     display: none;
     position: absolute;
-    background-color: #91FFEF;
+    background-color:  #e6fcee;
     z-index: 1;
-    padding: 5px 15px;
-    float: left;
+    padding: 0px 0px;
+  	width: 130px;
+  	right: 0px;
 }
+
+.menu {
+	font-family: "Verdana", Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #05386B;
+} 
+	
 .secret a {
-    padding: 10px 15px 10px 15px;
     text-decoration: none;
     display: block;
+	
 }
+
+.secret a:hover{
+	background-color: #c5e3d0;
+}
+
+.boop:hover .menu, .boop:hover {
+	background-color: #74a38c;
+}
+
 .pic {
     float: left;
     height: 55px;
