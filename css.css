@@ -72,7 +72,7 @@ button, .boop {
 	
 }
 
-.secret a:hover, .secret:hover {
+.secret a:hover{
 	background-color: #c5e3d0;
 }
 
